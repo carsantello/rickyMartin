@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "\"snadbox for getting confortable using node\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsantello/rickyMartin.git"
+  },
+  "keywords": [
+    "rick",
+    "morty",
+    "api",
+    "learning"
+  ],
+  "author": "Carlos Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carsantello/rickyMartin/issues"
+  },
+  "homepage": "https://github.com/carsantello/rickyMartin#readme"
+}
