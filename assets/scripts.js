@@ -10,9 +10,11 @@ fetch(apiUrl)
     })
     .then(function(respJson) {
         //para traer sin hardcode la info
-        const personajes = respJson.results
-            //    for (let character of personajes) {
-            //    console.log(respJson.results[0].name);
+        const personajes = respJson.results;
+        const species = respJson.species;
+        //    for (let character of personajes) {
+        //    console.log(respJson.results[0].name);
+        console.log(personajes);
         imprimirPersonajes(personajes);
     })
     .catch(function(error) {
@@ -22,9 +24,10 @@ fetch(apiUrl)
 function imprimirPersonajes(personajes) {
     for (let character of personajes) {
         cards.innerHTML += `
-        <p>${character.name}</p>
+        <p>${character.name} + ${character.species} </p>
         <img src="${character.image}">
       `
         console.log(character.name)
+        console.log(character.species);
     }
 }
